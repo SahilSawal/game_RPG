@@ -240,6 +240,7 @@ function defeatMonster() {
 
 function lose() {
   update(locations[5]);
+  window.location.href = "/users";
 }
 
 function winGame() {
