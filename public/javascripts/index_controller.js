@@ -244,6 +244,7 @@ function lose() {
 
 function winGame() {
   update(locations[6]);
+  window.location.href = "/win";
 }
 
 function restart() {
