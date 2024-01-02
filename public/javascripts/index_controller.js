@@ -236,6 +236,7 @@ function defeatMonster() {
   goldText.innerText = gold;
   xpText.innerText = xp;
   update(locations[4]);
+ 
 }
 
 function lose() {
