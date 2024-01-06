@@ -1,0 +1,5 @@
+applications:
+  - name : game_rpg
+    buildpack: nodejs_buildpack
+    path: .
+    memory: 512M
